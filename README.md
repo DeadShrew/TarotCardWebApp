@@ -11,7 +11,7 @@ with a fully open browser window. This will be fixed in later versions of the
 project. 
 
 To test the API you can: 
-Navigate to localhost:9001/cards for a list of 10 sample tarot cards JSON objects
+Navigate to localhost:9001/cards for a list of 10 sample tarot card's JSON objects.
 Navigate to localhost:9001/cards/id and enter an id between 0 and 9 to return a
 single cards JSON object.
 
