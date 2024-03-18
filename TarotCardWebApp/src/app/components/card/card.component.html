@@ -1,0 +1,10 @@
+<mat-card class="mat-elevation-z3">
+  <mat-card-header>
+    <button mat-raised-button class="titleButton" [routerLink]="['/card-details', card.id]">{{card.cardName}}</button> 
+  </mat-card-header>
+  <mat-card-content>
+    <img class="cardimage" src= {{card.cardImage}}>
+  </mat-card-content>
+</mat-card>
+  
+

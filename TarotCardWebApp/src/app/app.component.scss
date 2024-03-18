@@ -1,0 +1,33 @@
+mat-toolbar { 
+    position: relative;
+    z-index: 5;
+    background-color: tan;
+  }
+
+.title {
+    font-family: serif;
+    font-size: larger;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 64px);
+    
+}
+
+button {
+    background-color: beige;
+}
+ 
+.content {
+    padding: 24px;
+}
+
+mat-sidenav {
+    background-color: beige ;
+}
+
+.spreadicon {
+    padding-left: 5px;
+    max-width:  90px;
+    max-height: 60px;
+}
