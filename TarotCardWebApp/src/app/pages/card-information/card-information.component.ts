@@ -36,6 +36,5 @@ export class CardInformationComponent {
     this.cardService.getAllCards().then((cards: Card[]) => {
       this.cards = cards;
     });
-
   }
 }

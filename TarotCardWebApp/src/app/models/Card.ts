@@ -4,5 +4,6 @@ export interface Card {
     summary: string;
     upright: string;
     reversed: string;
-    cardImage: string;       
+    cardImage: string; 
+    suit: string;   
 };

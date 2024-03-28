@@ -1,5 +1,5 @@
 <mat-grid-list cols="5" rowHeight="3:5">
-  <mat-grid-tile *ngFor="let card of cards">
+  <mat-grid-tile *ngFor="let card of cards | slice:0:71"> <!--the slice pipe allows me to return only the first 72 cards in db, so that the reversed values can be hidden-->
     <app-card [card]="card"></app-card>
   </mat-grid-tile>
 </mat-grid-list>

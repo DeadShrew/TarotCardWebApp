@@ -23,4 +23,11 @@ export class CardsService {
     return await data.json() ?? {};
   }
 
+  //works
+  async getRandomCardById(id: number): Promise<Card | undefined> {
+    const random = Math.floor(Math.random() * 10);
+    const data = await fetch(`${this.url}/${random}`);
+    return await data.json() ?? {};
+  }
+
 }

@@ -1,0 +1,10 @@
+<div class="tp-wrapper">
+	<div class="tp-box" (click)="toggleFlip()" [@flipState]="flip">
+		<div class="tp-box__side tp-box__front">
+			<img src="assets/card-images/background.webp" class="cardback">
+		</div>
+		<div class="tp-box__side tp-box__back">
+			<img class="cardimage" src= {{card?.cardImage}}>
+		</div>
+	</div>
+</div>
