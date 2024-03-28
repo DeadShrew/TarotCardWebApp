@@ -11,9 +11,13 @@ with a fully open browser window. This will be fixed in later versions of the
 project. 
 
 To test the API you can: 
-Navigate to localhost:9001/cards for a list of 10 sample tarot cards JSON objects
+Navigate to localhost:9001/cards for a list of 10 sample tarot card's JSON objects.
 Navigate to localhost:9001/cards/id and enter an id between 0 and 9 to return a
-single cards JSON object.
+single card's JSON object.
+
+*Only the "Card Information page is working as intended, and the project still 
+needs additional information added to the card-details subpage. I will have to
+figure out how to create the readings at a later time. 
 
 *If the API does not work with your version of eclipse, you may need a fresh 
 install of the latest version. Maven likes to break on me but it works for now. 
@@ -28,6 +32,3 @@ Spring Web
 Angular 17
 Angular Materials
 
-"# AdvWebAppsFinalSubmission" 
-"# AdvWebAppsFinalSubmission" 
-"# TarotCardWebApp" 
